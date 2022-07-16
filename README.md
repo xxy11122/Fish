@@ -24,9 +24,9 @@
 #### 1.配置介绍  
 由微信小程序开发者文档得，每个微信小程序需要事先设置通讯域名，小程序只可以跟指定的域名进行网络通信，不能使用 IP 地址。且小程序必须使用 HTTPS/WSS 发起网络请求。请求时系统会对服务器域名使用的 HTTPS 证书进行校验，如果校验失败，则请求不能成功发起。所以在配置服务器时必须申请域名和配置SSL证书，又因为网络配置服务器域名只支持https和wss协议（加密的网络通信），还需要对服务器的安全组进行配置，开放相应的支持通信的端口。    
 #### 2.配置详情  
-![安全组配置](https://github.com/xxy11122/Fish/blob/main/%E5%AE%89%E5%85%A8%E7%BB%84%E9%85%8D%E7%BD%AE.png)  
-![域名](https://github.com/xxy11122/Fish/blob/main/%E5%9F%9F%E5%90%8D.png)
-![证书](https://github.com/xxy11122/Fish/blob/main/%E8%AF%81%E4%B9%A6.png)  
+![安全组配置](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%87/%E5%AE%89%E5%85%A8%E7%BB%84%E9%85%8D%E7%BD%AE.png)  
+![域名](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%87/%E5%9F%9F%E5%90%8D.png)
+![证书](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%87/%E8%AF%81%E4%B9%A6.png)  
 ### 2.下行数据发送模块  
 #### 1.功能介绍  
 根据硬件设备的上下行传输命令分别在按钮、切换开关绑定事件，当触发相应事件函数时，读取开关/输入框的数据状态，利用client.publish方法，向服务器下行Topic：/mysmarthome/sub发送相应的命令，再由上行设备读取命令，实现小程序端对设备端的远程控制。  
@@ -53,7 +53,7 @@
 ```
 
 ## 具体页面展示
-![图片1](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%871.png)
-![图片3](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%873.png)
-![图片2](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%872.png)
-![图片4](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%874.png)
+![图片1](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png)
+![图片3](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%873.png)
+![图片2](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%872.png)
+![图片4](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%874.png)
