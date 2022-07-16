@@ -53,7 +53,7 @@
 ```
 
 ## 具体页面展示
-![图片1](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%871.png)    
-![图片2](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%872.png)  
-![图片3](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%873.png)    
-![图片4](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%874.png)  
+![图片1](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%871.png)
+![图片3](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%873.png)
+![图片2](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%872.png)
+![图片4](https://github.com/xxy11122/Fish/blob/main/%E5%9B%BE%E7%89%874.png)
