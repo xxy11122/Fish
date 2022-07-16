@@ -139,4 +139,15 @@ if (/^(swan)|(tt)$/.test(PLATFORM)) {
   })
 }
 
+if (/^wx$/.test(PLATFORM)) {
+  baseWebpackConfig = merge(baseWebpackConfig, {
+    plugins: [
+      new CopyWebpackPlugin([{
+        from: resolve('node_modules/vant-weapp/dist'),
+        to: resolve('dist/wx/vant-weapp/dist')
+      }])
+    ]
+  })
+}
+
 module.exports = baseWebpackConfig
